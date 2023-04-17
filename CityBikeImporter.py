@@ -5,7 +5,7 @@ import json
 
 def mark_methods(cls):
     """
-    decorator takes the class and "decorate" all methods with error handling function error_handler
+    this function will mark all methods in class and "decorate" them with error handler decorator
     :param cls:
     :return: cls
     """
@@ -18,17 +18,16 @@ def mark_methods(cls):
 
 def error_handler(method):
     """
-    working funtion in main decorator checking for bugs... super handy if you need to write logs somewhere and
-    you don't need to create catcher for every method
+    it is possible for better bugs catching
     :param method:
-    :return:
+    :return: wrapped_method
     """
     def wrapped_method(*args, **kwargs):
         try:
             return method(*args, **kwargs)
         except Exception as e:
             print(f"Error in {method.__name__}: {e}")
-            raise
+
 
     return wrapped_method
 
