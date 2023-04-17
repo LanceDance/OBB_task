@@ -1,4 +1,4 @@
-# OBB_task
+# OBB Coding Task
 python task for fetching and transforming data.
 
 This is a Python project for fetching data and transforming data and print data. The project includes a main class CityBikeImporter.py, a unit test file test_importer.py, a Dockerfile for containerization, and a requirements.txt file for installing dependencies.
