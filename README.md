@@ -21,7 +21,8 @@ This is a Python project for fetching data and transforming data and print data.
 
     Install dependencies: pip install -r requirements.txt
     
-    Running the Application
+    
+### Running the Application
 
 To run the application, you need to execute running_city_bikes.py file:
 
