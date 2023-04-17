@@ -70,7 +70,6 @@ class TestGetRequests(unittest.TestCase):
 
     def test_add_attribute(self):
         method = self.testing_class.add_and_delete_attributes([])[0]
-        print(method)
         self.assertIn('free_ratio', method)
 
     def test_filter_bikes(self):
