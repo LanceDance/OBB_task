@@ -6,7 +6,7 @@ This is a Python project for fetching data and transforming data and print data.
 ## Installation
 ### Requirements
 
-    Python 3.10 or higher
+    Python 3.10 or higher (mandatory)
     Docker
     
 ### Setup
